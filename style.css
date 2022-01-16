@@ -1,0 +1,87 @@
+body {
+    background-color: lightgray;
+}
+
+body {
+    min-height: 100vh;
+    position: relative;
+}
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.topBarMenuItem {
+    text-decoration: none;
+}
+
+.listToggleBtn,
+.gridToggleBtn {
+    cursor: pointer;
+}
+
+.gridToggleBtn {
+    color: rgb(18, 18, 18)
+}
+
+.listToggleBtn {
+    color: gray
+}
+
+.taleText>p {
+    text-align: justify;
+}
+
+p {
+    margin: 0em;
+    text-align: justify;
+}
+
+.backToTopArrow {
+    display: none;
+    color: rgb(191, 191, 191);
+    text-align: center;
+    width: 40px;
+    cursor: pointer;
+    position: sticky;
+    bottom: 46px;
+    left: 100vw;
+    background-color: rgb(18, 18, 18);
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.redFilter {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vw;
+    background-color: rgb(213, 147, 103);
+    opacity: 0.1;
+    z-index: 100;
+    pointer-events: none;
+}
+
+footer {
+    border-top: 2px solid rgb(18, 18, 18);
+}
+
+.toolBar {
+    background-color: rgb(18, 18, 18);
+}
+
+.aboutImg {
+    width: 300px;
+    border-radius: 50%;
+    border: 3px solid rgb(18, 18, 18);
+}
+
+.topImage {
+    background-image: url(/img/topImage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
